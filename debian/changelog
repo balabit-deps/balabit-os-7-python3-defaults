@@ -1,9 +1,50 @@
+python3-defaults (3.6.7-1~18.04) bionic-proposed; urgency=medium
+
+  * SRU: LP: #1799206.
+  * Drop python3.7 as a supported python3 version for the bionic SRU.
+
+ -- Matthias Klose <doko@ubuntu.com>  Thu, 25 Oct 2018 13:11:00 +0200
+
+python3-defaults (3.6.7-1) unstable; urgency=high
+
+  * Really ship the policy in the python3 package, and update from the last
+    version found in the python package. Closes: #910113.
+  * Bump version to 3.6.7.
+
+ -- Matthias Klose <doko@debian.org>  Sun, 21 Oct 2018 11:21:31 +0200
+
+python3-defaults (3.6.6-1) unstable; urgency=medium
+
+  [ Matthias Klose ]
+  * Fix the idle desktop file. Closes: #901096.
+  * Install the policy files in the python3 package. Closes: #901486.
+  * python3-minimal: Pre-Depend on python3.6-minimal. Closes: #901001.
+  * Bump version to 3.6.6.
+
+  [ Scott Kitterman ]
+  * Remove myself from uploaders
+
+ -- Matthias Klose <doko@debian.org>  Wed, 27 Jun 2018 18:18:20 +0200
+
 python3-defaults (3.6.5-3ubuntu1) bionic; urgency=medium
 
   * Switch python3.x-minimal to a pre-dependency for python3-minimal so that
     release upgrades will be more smooth. (LP: #1768379)
 
  -- Brian Murray <brian@ubuntu.com>  Thu, 21 Jun 2018 14:52:37 -0700
+
+python3-defaults (3.6.5-5) experimental; urgency=medium
+
+  * Fix typo in the defaults file. Closes: #900937, #900949.
+
+ -- Matthias Klose <doko@debian.org>  Thu, 07 Jun 2018 17:57:53 +0200
+
+python3-defaults (3.6.5-4) experimental; urgency=medium
+
+  * Update Vcs attributes.
+  * Add Python 3.7 to the list of supported Python3 versions.
+
+ -- Matthias Klose <doko@debian.org>  Wed, 06 Jun 2018 18:26:50 +0200
 
 python3-defaults (3.6.5-3) unstable; urgency=medium
 
